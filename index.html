@@ -1,0 +1,35 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+            <title>Prak-10</title>
+        </head>
+
+        <body>
+
+            <div class="page">
+                <h1 class="title">Batu Gunting Kertas</h1>          
+                <div class="score">
+                    <ul class = 'scoreNumber'>
+                        <li id = 'playerNumber'>0</li>
+                        <li id = 'computerNumber'>0</li>
+                    </ul>
+                    <ul class = 'scoreTable'>
+                        <li id = 'scorePlayer'>Kamu</li>
+                        <li id = 'scoreComputer'>Bot</li>
+                    </ul>
+                    <p id = 'outcome' ></p>
+                </div>
+                <div class="images">
+                    <input type="image" id = 'Batu' src="batu.jpg" onclick="play(this.id)">
+                    <input type="image" id = 'Kertas' src="kertas.jpg" onclick="play(this.id)" >
+                    <input type="image" id = 'Gunting' src="gunting.png" onclick="play(this.id)" >
+                </div>
+                <input type="button" value = 'Replay' id = 'reset' onclick="window.location.reload()">
+            </div>
+            <script src="script.js"></script>
+        </body>
+    </html>

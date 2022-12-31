@@ -1,0 +1,112 @@
+html,
+body {
+    background: rgb(121, 222, 253);
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    color: rgb(9, 9, 9);
+}
+.score {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(11, 11, 11);
+}
+input {
+    width: 100px;
+    height: 100px;
+    margin-inline: 80px;
+}
+
+.button:hover {
+    position: relative;
+}
+.scoreNumber {
+
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 2px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+
+}
+.scoreNumber li {
+
+    margin-inline: 150px;
+    font-size: 70px;
+    
+}
+.scoreTable {
+
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 0px;
+
+}
+.scoreTable li {
+
+    margin-inline: 90px;
+    font-size: large;
+    color: rgb(7, 7, 7);
+    background-color:rgb(249, 247, 247);
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+#outcome {
+    position: flex;
+    font-size: x-large;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.images {
+    display: flex;
+    position: fixed;
+    bottom: 70px;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+input[type=button] {
+
+    position: fixed;
+    bottom: 120px;
+    right: 75px;
+    margin: 0px;
+    padding: 2px;
+    border-radius: 50%;
+    border: 0;
+    width: 100px;
+    height: 100px;
+
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    background: rgb(253, 250, 253);
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    
+}
+input[type=button]:hover {
+    color: rgba(255, 255, 255, 0.511);
+    box-shadow: 0 5px 15px rgba(18, 18, 18, 0.4);
+    cursor: pointer;
+}
